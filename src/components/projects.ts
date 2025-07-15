@@ -17,42 +17,37 @@ export function createProjects(): string {
               </div>
               <div class="project-overlay">
                 <div class="project-links">
-                  <a href="https://project-demo.com" target="_blank" rel="noopener" class="project-link">
+                  <a href="https://www.linkedin.com/in/dimitrije-stojanovic/" target="_blank" rel="noopener" class="project-link">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
-                    </svg>
-                  </a>
-                  <a href="https://github.com/username/project" target="_blank" rel="noopener" class="project-link">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                     </svg>
                   </a>
                 </div>
               </div>
             </div>
             <div class="project-content">
-              <div class="project-category">Featured Project</div>
-              <h3 class="project-title">E-Commerce Platform</h3>
+              <div class="project-category">PhD Research</div>
+              <h3 class="project-title">AI Research - Transformers & Computer Vision</h3>
               <p class="project-description">
-                A comprehensive e-commerce solution built with React, Node.js, and AWS. Features include 
-                real-time inventory management, secure payment processing, and an admin dashboard for 
-                order management.
+                Current PhD research focusing on latest AI technologies including Computer Vision, 
+                Transformers, and Large Language Models using open-source platforms like HuggingFace. 
+                Combining theoretical research with practical automotive applications.
               </p>
               <div class="project-tech">
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">AWS</span>
-                <span class="tech-tag">Stripe</span>
+                <span class="tech-tag">Computer Vision</span>
+                <span class="tech-tag">Transformers</span>
+                <span class="tech-tag">LLM</span>
+                <span class="tech-tag">HuggingFace</span>
+                <span class="tech-tag">Python</span>
               </div>
               <div class="project-stats">
                 <div class="stat">
-                  <span class="stat-value">100k+</span>
-                  <span class="stat-label">Users</span>
+                  <span class="stat-value">3+</span>
+                  <span class="stat-label">Years Research</span>
                 </div>
                 <div class="stat">
-                  <span class="stat-value">$2M+</span>
-                  <span class="stat-label">Revenue</span>
+                  <span class="stat-value">PhD</span>
+                  <span class="stat-label">In Progress</span>
                 </div>
               </div>
             </div>
@@ -67,31 +62,27 @@ export function createProjects(): string {
               </div>
               <div class="project-overlay">
                 <div class="project-links">
-                  <a href="https://project-demo.com" target="_blank" rel="noopener" class="project-link">
+                  <a href="https://www.linkedin.com/in/dimitrije-stojanovic/" target="_blank" rel="noopener" class="project-link">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
-                    </svg>
-                  </a>
-                  <a href="https://github.com/username/project" target="_blank" rel="noopener" class="project-link">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                     </svg>
                   </a>
                 </div>
               </div>
             </div>
             <div class="project-content">
-              <div class="project-category">Web Application</div>
-              <h3 class="project-title">Task Management App</h3>
+              <div class="project-category">Startup</div>
+              <h3 class="project-title">BikeSeeing - Tourism Marketplace</h3>
               <p class="project-description">
-                A collaborative task management application with real-time updates, team collaboration 
-                features, and advanced filtering capabilities. Built with Vue.js and Firebase.
+                Co-founded BikeSeeing, a two-sided marketplace connecting tourists with local guides on bikes, 
+                helping tourists discover hidden places and special views. Gained valuable entrepreneurship 
+                and business development experience.
               </p>
               <div class="project-tech">
-                <span class="tech-tag">Vue.js</span>
-                <span class="tech-tag">Firebase</span>
-                <span class="tech-tag">Vuex</span>
-                <span class="tech-tag">Chart.js</span>
+                <span class="tech-tag">Entrepreneurship</span>
+                <span class="tech-tag">Business Development</span>
+                <span class="tech-tag">Marketplace</span>
+                <span class="tech-tag">Tourism</span>
               </div>
             </div>
           </div>
@@ -100,37 +91,32 @@ export function createProjects(): string {
             <div class="project-image">
               <div class="project-placeholder">
                 <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                 </svg>
               </div>
               <div class="project-overlay">
                 <div class="project-links">
-                  <a href="https://project-demo.com" target="_blank" rel="noopener" class="project-link">
+                  <a href="https://www.linkedin.com/in/dimitrije-stojanovic/" target="_blank" rel="noopener" class="project-link">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
-                    </svg>
-                  </a>
-                  <a href="https://github.com/username/project" target="_blank" rel="noopener" class="project-link">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                     </svg>
                   </a>
                 </div>
               </div>
             </div>
             <div class="project-content">
-              <div class="project-category">API & Backend</div>
-              <h3 class="project-title">RESTful API Service</h3>
+              <div class="project-category">Automotive Software</div>
+              <h3 class="project-title">TTTech Auto - Software Update Solutions</h3>
               <p class="project-description">
-                A scalable REST API built with Node.js and Express, featuring authentication, rate limiting, 
-                and comprehensive documentation. Deployed on AWS with automated CI/CD pipeline.
+                Senior C++ software engineer working on cutting-edge automotive software update technologies. 
+                Implementing TDD, agile methodologies, and ASPICE processes for safety-critical automotive systems.
               </p>
               <div class="project-tech">
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">Express</span>
-                <span class="tech-tag">MongoDB</span>
-                <span class="tech-tag">JWT</span>
-                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">C++</span>
+                <span class="tech-tag">AUTOSAR</span>
+                <span class="tech-tag">TDD</span>
+                <span class="tech-tag">ASPICE</span>
+                <span class="tech-tag">Automotive</span>
               </div>
             </div>
           </div>
@@ -144,31 +130,27 @@ export function createProjects(): string {
               </div>
               <div class="project-overlay">
                 <div class="project-links">
-                  <a href="https://project-demo.com" target="_blank" rel="noopener" class="project-link">
+                  <a href="https://www.linkedin.com/in/dimitrije-stojanovic/" target="_blank" rel="noopener" class="project-link">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
-                    </svg>
-                  </a>
-                  <a href="https://github.com/username/project" target="_blank" rel="noopener" class="project-link">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                     </svg>
                   </a>
                 </div>
               </div>
             </div>
             <div class="project-content">
-              <div class="project-category">Data Visualization</div>
-              <h3 class="project-title">Analytics Dashboard</h3>
+              <div class="project-category">Academic Teaching</div>
+              <h3 class="project-title">University Teaching & Training</h3>
               <p class="project-description">
-                A comprehensive analytics dashboard with interactive charts and real-time data updates. 
-                Features advanced filtering, export capabilities, and responsive design.
+                Teaching Computer Vision and AUTOSAR at Faculty of Technical Sciences, and Adaptive AUTOSAR, 
+                TDD, and Rust at NIT Academy. Bridging academia and industry through practical education.
               </p>
               <div class="project-tech">
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">D3.js</span>
-                <span class="tech-tag">TypeScript</span>
-                <span class="tech-tag">WebSocket</span>
+                <span class="tech-tag">Computer Vision</span>
+                <span class="tech-tag">AUTOSAR</span>
+                <span class="tech-tag">TDD</span>
+                <span class="tech-tag">Rust</span>
+                <span class="tech-tag">Teaching</span>
               </div>
             </div>
           </div>
@@ -176,11 +158,11 @@ export function createProjects(): string {
         
         <div class="projects-footer">
           <p class="projects-note">
-            Want to see more? Check out my 
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="github-link">
-              GitHub profile
+            Interested in my research or want to collaborate? Connect with me on 
+            <a href="https://www.linkedin.com/in/dimitrije-stojanovic/" target="_blank" rel="noopener" class="github-link">
+              LinkedIn
             </a> 
-            for additional projects and contributions.
+            to discuss AI research, automotive software, or academic opportunities.
           </p>
         </div>
       </div>

@@ -90,7 +90,7 @@ function initializeTypingAnimation(): void {
   const typewriterElement = document.querySelector('.role') as HTMLElement
   if (!typewriterElement) return
 
-  const roles = ['Full Stack Developer', 'UI/UX Enthusiast', 'Problem Solver', 'Tech Leader']
+  const roles = ['AI Researcher', 'PhD Candidate', 'Software Engineer', 'University Teacher', 'Startup Co-Founder']
   let currentRoleIndex = 0
   let currentCharIndex = 0
   let isDeleting = false

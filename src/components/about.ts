@@ -11,54 +11,56 @@ export function createAbout(): string {
           <div class="about-text">
             <div class="about-intro">
               <p>
-                I'm a passionate Full Stack Developer with <strong>5+ years</strong> of experience 
-                creating digital solutions that make a difference. My journey in tech started with 
-                curiosity and has evolved into a career focused on building scalable, user-centric applications.
+                I'm an AI researcher currently pursuing a <strong>PhD</strong> with a focus on Transformer models, 
+                generative AI, and computer vision. My academic pursuits are enriched by <strong>six years</strong> 
+                of experience in the automotive industry as a software engineer and domain expert, 
+                blending theoretical knowledge with practical application.
               </p>
               
               <p>
-                I specialize in modern web technologies including React, Node.js, TypeScript, and cloud platforms. 
-                I believe in writing clean, maintainable code and following best practices to deliver 
-                exceptional user experiences.
+                This unique combination of skills and experiences positions me at the forefront of AI research 
+                and its real-world implications. Beyond my professional and academic endeavors, I am actively 
+                involved in the startup ecosystem, having co-founded BikeSeeing and participated in mentorship programs. 
+                My commitment extends to academia, where I teach at the Faculty of Technical Sciences.
               </p>
             </div>
             
             <div class="about-details">
               <div class="detail-item">
                 <span class="detail-label">Location</span>
-                <span class="detail-value">Your City, Country</span>
+                <span class="detail-value">Novi Sad, Serbia</span>
               </div>
               <div class="detail-item">
                 <span class="detail-label">Experience</span>
-                <span class="detail-value">5+ Years</span>
+                <span class="detail-value">6+ Years</span>
               </div>
               <div class="detail-item">
                 <span class="detail-label">Focus</span>
-                <span class="detail-value">Full Stack Development</span>
+                <span class="detail-value">AI Research & Automotive Software</span>
               </div>
               <div class="detail-item">
-                <span class="detail-label">Availability</span>
-                <span class="detail-value">Open to opportunities</span>
+                <span class="detail-label">Education</span>
+                <span class="detail-value">PhD Candidate</span>
               </div>
             </div>
           </div>
           
           <div class="about-stats">
             <div class="stat-item">
-              <span class="stat-number">50+</span>
-              <span class="stat-label">Projects Completed</span>
+              <span class="stat-number">6+</span>
+              <span class="stat-label">Years Industry Experience</span>
             </div>
             <div class="stat-item">
-              <span class="stat-number">15+</span>
-              <span class="stat-label">Happy Clients</span>
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Years Teaching</span>
             </div>
             <div class="stat-item">
-              <span class="stat-number">5+</span>
-              <span class="stat-label">Years Experience</span>
+              <span class="stat-number">1</span>
+              <span class="stat-label">Startup Co-Founded</span>
             </div>
             <div class="stat-item">
-              <span class="stat-number">100%</span>
-              <span class="stat-label">Commitment</span>
+              <span class="stat-number">PhD</span>
+              <span class="stat-label">In Progress</span>
             </div>
           </div>
         </div>

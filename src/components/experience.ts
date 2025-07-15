@@ -12,27 +12,27 @@ export function createExperience(): string {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-header">
-                <h3 class="job-title">Senior Full Stack Developer</h3>
-                <span class="company">Tech Company Inc.</span>
-                <span class="period">2022 - Present</span>
+                <h3 class="job-title">Domain Expert Software Update</h3>
+                <span class="company">TTTech Auto</span>
+                <span class="period">2018 - Present</span>
               </div>
               <div class="job-description">
                 <p>
-                  Leading development of scalable web applications using React, Node.js, and AWS. 
-                  Mentoring junior developers and establishing best practices for the development team.
+                  Senior C++ software engineer working directly with customers on latest automotive projects. 
+                  Specialized in software update technologies and ASPICE processes in the automotive domain.
                 </p>
                 <ul class="achievements">
-                  <li>Architected and developed a microservices platform serving 100k+ users</li>
-                  <li>Reduced application load times by 60% through optimization and caching strategies</li>
-                  <li>Led a team of 5 developers on multiple high-impact projects</li>
-                  <li>Implemented CI/CD pipelines reducing deployment time by 80%</li>
+                  <li>Led software update solutions for major automotive customers</li>
+                  <li>Implemented TDD and agile methodologies in automotive software development</li>
+                  <li>Worked with modern software engineering principles and ASPICE processes</li>
+                  <li>Collaborated with international teams on safety-critical automotive systems</li>
                 </ul>
                 <div class="tech-stack">
-                  <span class="tech-tag">React</span>
-                  <span class="tech-tag">Node.js</span>
-                  <span class="tech-tag">TypeScript</span>
-                  <span class="tech-tag">AWS</span>
-                  <span class="tech-tag">Docker</span>
+                  <span class="tech-tag">C++</span>
+                  <span class="tech-tag">AUTOSAR</span>
+                  <span class="tech-tag">TDD</span>
+                  <span class="tech-tag">ASPICE</span>
+                  <span class="tech-tag">Agile</span>
                 </div>
               </div>
             </div>
@@ -42,27 +42,26 @@ export function createExperience(): string {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-header">
-                <h3 class="job-title">Full Stack Developer</h3>
-                <span class="company">Digital Solutions Ltd.</span>
-                <span class="period">2020 - 2022</span>
+                <h3 class="job-title">Teaching Assistant</h3>
+                <span class="company">Faculty of Technical Sciences, University of Novi Sad</span>
+                <span class="period">2021 - Present</span>
               </div>
               <div class="job-description">
                 <p>
-                  Developed and maintained web applications for various clients using modern JavaScript frameworks 
-                  and backend technologies. Collaborated with design and product teams to deliver user-focused solutions.
+                  Teaching Computer Vision and AUTOSAR Classic to the new generation of engineers, 
+                  bridging the gap between theory and practice in automotive software development.
                 </p>
                 <ul class="achievements">
-                  <li>Built 15+ responsive web applications for diverse industry clients</li>
-                  <li>Improved code quality by implementing automated testing (Jest, Cypress)</li>
-                  <li>Integrated third-party APIs and payment systems for e-commerce platforms</li>
-                  <li>Mentored 3 junior developers and conducted code reviews</li>
+                  <li>Developed comprehensive Computer Vision curriculum and materials</li>
+                  <li>Taught AUTOSAR Classic principles and implementation</li>
+                  <li>Mentored students in practical automotive software projects</li>
+                  <li>Integrated industry best practices into academic curriculum</li>
                 </ul>
                 <div class="tech-stack">
-                  <span class="tech-tag">Vue.js</span>
-                  <span class="tech-tag">Express.js</span>
-                  <span class="tech-tag">MongoDB</span>
-                  <span class="tech-tag">PostgreSQL</span>
-                  <span class="tech-tag">Jest</span>
+                  <span class="tech-tag">Computer Vision</span>
+                  <span class="tech-tag">AUTOSAR Classic</span>
+                  <span class="tech-tag">Teaching</span>
+                  <span class="tech-tag">Mentoring</span>
                 </div>
               </div>
             </div>
@@ -72,27 +71,26 @@ export function createExperience(): string {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-header">
-                <h3 class="job-title">Frontend Developer</h3>
-                <span class="company">StartupXYZ</span>
-                <span class="period">2019 - 2020</span>
+                <h3 class="job-title">Teaching Assistant</h3>
+                <span class="company">NIT Academy</span>
+                <span class="period">2023 - Present</span>
               </div>
               <div class="job-description">
                 <p>
-                  Focused on creating intuitive user interfaces and implementing responsive designs. 
-                  Worked closely with UX designers to translate mockups into pixel-perfect implementations.
+                  Teaching advanced automotive software technologies including Adaptive AUTOSAR, 
+                  Test-Driven Development, and Rust programming language for automotive applications.
                 </p>
                 <ul class="achievements">
-                  <li>Developed the company's main product interface used by 10k+ users</li>
-                  <li>Implemented responsive design resulting in 40% increase in mobile usage</li>
-                  <li>Optimized application performance achieving 95+ Lighthouse scores</li>
-                  <li>Established component library reducing development time by 30%</li>
+                  <li>Designed and delivered Adaptive AUTOSAR training programs</li>
+                  <li>Taught TDD methodologies for automotive software development</li>
+                  <li>Introduced Rust programming for safety-critical automotive systems</li>
+                  <li>Developed practical exercises and real-world case studies</li>
                 </ul>
                 <div class="tech-stack">
-                  <span class="tech-tag">React</span>
-                  <span class="tech-tag">Redux</span>
-                  <span class="tech-tag">Sass</span>
-                  <span class="tech-tag">Webpack</span>
-                  <span class="tech-tag">Figma</span>
+                  <span class="tech-tag">Adaptive AUTOSAR</span>
+                  <span class="tech-tag">TDD</span>
+                  <span class="tech-tag">Rust</span>
+                  <span class="tech-tag">Training</span>
                 </div>
               </div>
             </div>
@@ -102,27 +100,26 @@ export function createExperience(): string {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-header">
-                <h3 class="job-title">Junior Web Developer</h3>
-                <span class="company">Web Agency Pro</span>
-                <span class="period">2018 - 2019</span>
+                <h3 class="job-title">Co-Founder</h3>
+                <span class="company">BikeSeeing Startup</span>
+                <span class="period">2018</span>
               </div>
               <div class="job-description">
                 <p>
-                  Started my professional journey building websites and learning modern web development practices. 
-                  Gained experience with various CMS platforms and frontend frameworks.
+                  Co-founded BikeSeeing, a two-sided marketplace connecting tourists with local guides on bikes, 
+                  connecting tourists with hidden places and special views.
                 </p>
                 <ul class="achievements">
-                  <li>Built 20+ client websites using WordPress and custom solutions</li>
-                  <li>Learned modern JavaScript frameworks and best practices</li>
-                  <li>Improved website loading speeds by implementing optimization techniques</li>
-                  <li>Provided technical support and maintenance for existing projects</li>
+                  <li>Developed business model for tourism marketplace platform</li>
+                  <li>Led product development and user experience design</li>
+                  <li>Pitched to investors and participated in startup accelerator programs</li>
+                  <li>Gained valuable entrepreneurship and business development experience</li>
                 </ul>
                 <div class="tech-stack">
-                  <span class="tech-tag">HTML/CSS</span>
-                  <span class="tech-tag">JavaScript</span>
-                  <span class="tech-tag">WordPress</span>
-                  <span class="tech-tag">PHP</span>
-                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">Entrepreneurship</span>
+                  <span class="tech-tag">Business Development</span>
+                  <span class="tech-tag">Product Management</span>
+                  <span class="tech-tag">Marketplace</span>
                 </div>
               </div>
             </div>

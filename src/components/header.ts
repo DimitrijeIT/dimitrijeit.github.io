@@ -4,7 +4,7 @@ export function createHeader(): string {
       <div class="container">
         <div class="header-content">
           <div class="logo">
-            <a href="#hero" class="logo-text">Your Name</a>
+            <a href="#hero" class="logo-text">Dimitrije Stojanović</a>
           </div>
           
           <nav class="nav">
