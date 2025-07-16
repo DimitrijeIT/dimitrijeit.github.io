@@ -14,7 +14,6 @@ export function createHeader(): string {
               <li><a href="#experience" class="nav-link">Experience</a></li>
               <li><a href="#skills" class="nav-link">Skills</a></li>
               <li><a href="#research" class="nav-link">Research</a></li>
-              <li><a href="#projects" class="nav-link">Projects</a></li>
               <li><a href="#public-appearances" class="nav-link">Appearances</a></li>
               <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
