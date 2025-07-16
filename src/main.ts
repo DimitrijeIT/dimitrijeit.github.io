@@ -4,6 +4,7 @@ import { createHero } from './components/hero'
 import { createAbout } from './components/about'
 import { createExperience } from './components/experience'
 import { createSkills } from './components/skills'
+import { createResearch } from './components/research'
 import { createProjects } from './components/projects'
 import { createContact } from './components/contact'
 import { initializeAnimations } from './animations'
@@ -28,6 +29,7 @@ function initApp() {
         ${createAbout()}
         ${createExperience()}
         ${createSkills()}
+        ${createResearch()}
         ${createProjects()}
         ${createContact()}
       </main>

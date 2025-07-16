@@ -12,7 +12,7 @@ export function createAbout(): string {
             <div class="about-intro">
               <p>
                 I'm an AI researcher currently pursuing a <strong>PhD</strong> with a focus on Transformer models, 
-                generative AI, and computer vision. My academic pursuits are enriched by <strong>six years</strong> 
+                generative AI, and computer vision. My academic pursuits are enriched by <strong>Seven years</strong> 
                 of experience in the automotive industry as a software engineer and domain expert, 
                 blending theoretical knowledge with practical application.
               </p>
@@ -32,7 +32,7 @@ export function createAbout(): string {
               </div>
               <div class="detail-item">
                 <span class="detail-label">Experience</span>
-                <span class="detail-value">6+ Years</span>
+                <span class="detail-value">7 Years</span>
               </div>
               <div class="detail-item">
                 <span class="detail-label">Focus</span>
@@ -47,7 +47,7 @@ export function createAbout(): string {
           
           <div class="about-stats">
             <div class="stat-item">
-              <span class="stat-number">6+</span>
+              <span class="stat-number">7</span>
               <span class="stat-label">Years Industry Experience</span>
             </div>
             <div class="stat-item">

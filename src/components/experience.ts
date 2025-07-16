@@ -16,18 +16,18 @@ export function createExperience(): string {
                   <img src="/personal_cv/logos/tttech_auto.png" alt="TTTech Auto" class="logo">
                 </div>
                 <div class="job-info">
-                  <h3 class="job-title">Domain Expert Software Update</h3>
+                  <h3 class="job-title">Senior Software Engineer</h3>
                   <span class="company">TTTech Auto</span>
                   <span class="period">2018 - Present</span>
                 </div>
               </div>
               <div class="job-description">
                 <p>
-                  Senior C++ software engineer working directly with customers on latest automotive projects. 
+                  Senior C++ software engineer working directly with customers on the latest automotive projects. 
                   Specialized in software update technologies and ASPICE processes in the automotive domain.
                 </p>
                 <ul class="achievements">
-                  <li>Led software update solutions for major automotive customers</li>
+                  <li>Led software update solutions for major automotive OEMs</li>
                   <li>Implemented TDD and agile methodologies in automotive software development</li>
                   <li>Worked with modern software engineering principles and ASPICE processes</li>
                   <li>Collaborated with international teams on safety-critical automotive systems</li>
@@ -62,7 +62,7 @@ export function createExperience(): string {
                   bridging the gap between theory and practice in automotive software development.
                 </p>
                 <ul class="achievements">
-                  <li>Developed comprehensive Computer Vision curriculum and materials</li>
+                  <li>Taught comprehensive Computer Vision curriculum and materials</li>
                   <li>Taught AUTOSAR Classic principles and implementation</li>
                   <li>Mentored students in practical automotive software projects</li>
                   <li>Integrated industry best practices into academic curriculum</li>
@@ -92,13 +92,13 @@ export function createExperience(): string {
               </div>
               <div class="job-description">
                 <p>
-                  Teaching advanced automotive software technologies including Adaptive AUTOSAR, 
-                  Test-Driven Development, and Rust programming language for automotive applications.
+                  Teaching advanced software technologies including Adaptive AUTOSAR, 
+                  Test-Driven Development, and Rust programming language.
                 </p>
                 <ul class="achievements">
-                  <li>Designed and delivered Adaptive AUTOSAR training programs</li>
-                  <li>Taught TDD methodologies for automotive software development</li>
-                  <li>Introduced Rust programming for safety-critical automotive systems</li>
+                  <li>Designed and taught Adaptive AUTOSAR training programs</li>
+                  <li>Designed and taught TDD methodologies for automotive software development</li>
+                  <li>Designed and taught Rust programming language</li>
                   <li>Developed practical exercises and real-world case studies</li>
                 </ul>
                 <div class="tech-stack">

@@ -1863,6 +1863,117 @@ section.animate-in {
   }
 }
 
+/* Research Section Styles */
+.research-section {
+  padding: var(--spacing-xxl) 0;
+}
+
+.google-scholar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.google-scholar-link {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.google-scholar-link:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+}
+
+.google-scholar-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.research-papers {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.paper {
+  padding: var(--spacing-lg);
+  background-color: var(--color-bg-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.paper:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.paper-title {
+  margin-top: 0;
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-primary);
+  font-size: var(--font-size-lg);
+}
+
+.paper-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.paper-year {
+  font-weight: 600;
+}
+
+.paper-abstract {
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+}
+
+.paper-link {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background-color: var(--color-primary-light);
+  color: white;
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.paper-link:hover {
+  background-color: var(--color-primary);
+}
+
+.paper-status {
+  font-style: italic;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+@media (max-width: 768px) {
+  .paper {
+    padding: var(--spacing-md);
+  }
+  
+  .paper-title {
+    font-size: var(--font-size-md);
+  }
+}
+
 /* Dark mode support (optional) */
 @media (prefers-color-scheme: dark) {
   :root {

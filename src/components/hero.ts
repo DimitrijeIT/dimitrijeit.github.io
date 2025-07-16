@@ -12,7 +12,7 @@ export function createHero(): string {
             
             <p class="hero-description">
               PhD candidate specializing in Transformer models, generative AI, and computer vision. 
-              Six years of automotive industry experience as a software engineer and domain expert, 
+              Seven years of automotive industry experience as a software engineer and domain expert, 
               bridging theoretical AI research with practical application.
             </p>
             
