@@ -9,21 +9,63 @@ import {
 
 export function createSkills(): string {
   return `
-    <section id="skills" class="skills">
-      <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Skills & Technologies</h2>
-          <p class="section-subtitle">Expertise areas and Technologies I work with</p>
+    <div class="skills-wrapper">
+      <!-- Technical Skills Section -->
+      <section id="skills" class="skills">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-subtitle">Expertise areas and Technologies I work with</p>
+          </div>
+          
+          <div class="skills-content">
+            ${createSkillsCategories()}
+            ${createSkillsSummary()}
+          </div>
         </div>
-        
-        <div class="skills-content">
-          ${createSkillsCategories()}
-          ${createSkillsSummary()}
-          ${createEducationSection()}
-          ${createCertificationsSection()}
-          ${createTeachingSection()}
+      </section>
+      
+      <!-- Education Section -->
+      <section id="education" class="education skills-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Education</h2>
+            <p class="section-subtitle">Academic Background</p>
+          </div>
+          
+          <div class="skills-content">
+            ${createEducationSection()}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      
+      <!-- Certifications Section -->
+      <section id="certifications" class="certifications skills-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">Professional Development</p>
+          </div>
+          
+          <div class="skills-content">
+            ${createCertificationsSection()}
+          </div>
+        </div>
+      </section>
+      
+      <!-- Teaching Section -->
+      <section id="teaching" class="teaching skills-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Teaching Experience</h2>
+            <p class="section-subtitle">Educational Contributions</p>
+          </div>
+          
+          <div class="skills-content">
+            ${createTeachingSection()}
+          </div>
+        </div>
+      </section>
+    </div>
   `;
 }

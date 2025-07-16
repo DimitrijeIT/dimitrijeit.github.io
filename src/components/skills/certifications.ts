@@ -1,8 +1,7 @@
 // Certifications Section
 export function createCertificationsSection(): string {
   return `
-    <div class="certifications-section">
-      <h3 class="section-subtitle">Certifications & Professional Development</h3>
+    <div class="certifications-content">
       <div class="education-grid">
         <div class="education-item">
           <div class="education-logo">

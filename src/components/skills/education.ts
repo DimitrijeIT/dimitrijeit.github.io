@@ -1,8 +1,7 @@
 // Education Section
 export function createEducationSection(): string {
   return `
-    <div class="education-section">
-      <h3 class="section-subtitle">Education</h3>
+    <div class="education-content">
       <div class="education-grid">
         <div class="education-item">
           <div class="education-logo">

@@ -1,8 +1,7 @@
 // Teaching Section
 export function createTeachingSection(): string {
   return `
-    <div class="teaching-section">
-      <h3 class="section-subtitle">Teaching</h3>
+    <div class="teaching-content">
       <div class="education-grid">
         <div class="course-card">
           <div class="course-image">

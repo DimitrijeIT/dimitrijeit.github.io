@@ -13,6 +13,9 @@ export function createHeader(): string {
               <li><a href="#about" class="nav-link">About</a></li>
               <li><a href="#experience" class="nav-link">Experience</a></li>
               <li><a href="#skills" class="nav-link">Skills</a></li>
+              <li><a href="#education" class="nav-link">Education</a></li>
+              <li><a href="#certifications" class="nav-link">Certifications</a></li>
+              <li><a href="#teaching" class="nav-link">Teaching</a></li>
               <li><a href="#research" class="nav-link">Research</a></li>
               <li><a href="#public-appearances" class="nav-link">Appearances</a></li>
               <li><a href="#contact" class="nav-link">Contact</a></li>
