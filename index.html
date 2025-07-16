@@ -21,7 +21,17 @@
     <title>Dimitrije Stojanović - AI Researcher & Software Engineer</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial, sans-serif;">
+        <div style="text-align: center;">
+          <h1>Loading...</h1>
+          <p>If this message persists, please ensure JavaScript is enabled in your browser.</p>
+        </div>
+      </div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
+    <script nomodule>
+      document.getElementById('app').innerHTML = '<div style="text-align: center; padding: 2rem; font-family: Arial, sans-serif;"><h1>Browser Not Supported</h1><p>This website requires a modern browser that supports ES modules.</p></div>';
+    </script>
   </body>
 </html>

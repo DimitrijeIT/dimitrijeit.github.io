@@ -10,7 +10,14 @@ import { initializeAnimations } from './animations'
 
 // Initialize the application
 function initApp() {
-  const app = document.querySelector<HTMLDivElement>('#app')!
+  const app = document.querySelector<HTMLDivElement>('#app')
+  
+  if (!app) {
+    console.error('Could not find app element')
+    return
+  }
+  
+  console.log('Initializing app...')
   
   // Create the main layout structure
   app.innerHTML = `
@@ -27,8 +34,15 @@ function initApp() {
     </div>
   `
   
+  console.log('App content created')
+  
   // Initialize animations and interactions
-  initializeAnimations()
+  try {
+    initializeAnimations()
+    console.log('Animations initialized')
+  } catch (error) {
+    console.error('Error initializing animations:', error)
+  }
   
   // Smooth scrolling for navigation links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -54,7 +68,13 @@ function initApp() {
       mobileMenuBtn.classList.toggle('active')
     })
   }
+  
+  console.log('App initialization complete')
 }
 
 // Initialize when DOM is loaded
-document.addEventListener('DOMContentLoaded', initApp)
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initApp)
+} else {
+  initApp()
+}
