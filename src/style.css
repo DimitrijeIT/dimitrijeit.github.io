@@ -980,6 +980,13 @@ section.animate-in {
   border-top: 1px solid var(--color-border);
 }
 
+/* Teaching Section */
+.teaching-section {
+  margin-top: var(--spacing-3xl);
+  padding-top: var(--spacing-3xl);
+  border-top: 1px solid var(--color-border);
+}
+
 .education-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -1137,6 +1144,17 @@ section.animate-in {
 
 .cert-tag.leadership:hover {
   background-color: rgba(139, 92, 246, 0.15);
+  transform: translateY(-1px);
+}
+
+.cert-tag.teaching {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #059669;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.cert-tag.teaching:hover {
+  background-color: rgba(16, 185, 129, 0.15);
   transform: translateY(-1px);
 }
 
