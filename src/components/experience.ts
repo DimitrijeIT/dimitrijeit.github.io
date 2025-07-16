@@ -12,9 +12,14 @@ export function createExperience(): string {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-header">
-                <h3 class="job-title">Domain Expert Software Update</h3>
-                <span class="company">TTTech Auto</span>
-                <span class="period">2018 - Present</span>
+                <div class="company-logo">
+                  <img src="/personal_cv/logos/tttech_auto.png" alt="TTTech Auto" class="logo">
+                </div>
+                <div class="job-info">
+                  <h3 class="job-title">Domain Expert Software Update</h3>
+                  <span class="company">TTTech Auto</span>
+                  <span class="period">2018 - Present</span>
+                </div>
               </div>
               <div class="job-description">
                 <p>
@@ -42,9 +47,14 @@ export function createExperience(): string {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-header">
-                <h3 class="job-title">Teaching Assistant</h3>
-                <span class="company">Faculty of Technical Sciences, University of Novi Sad</span>
-                <span class="period">2021 - Present</span>
+                <div class="company-logo">
+                  <img src="/personal_cv/logos/ftn.png" alt="Faculty of Technical Sciences" class="logo">
+                </div>
+                <div class="job-info">
+                  <h3 class="job-title">Teaching Assistant</h3>
+                  <span class="company">Faculty of Technical Sciences, University of Novi Sad</span>
+                  <span class="period">2021 - Present</span>
+                </div>
               </div>
               <div class="job-description">
                 <p>
@@ -71,9 +81,14 @@ export function createExperience(): string {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-header">
-                <h3 class="job-title">Teaching Assistant</h3>
-                <span class="company">NIT Academy</span>
-                <span class="period">2023 - Present</span>
+                <div class="company-logo">
+                  <img src="/personal_cv/logos/nit_academy.png" alt="NIT Academy" class="logo">
+                </div>
+                <div class="job-info">
+                  <h3 class="job-title">Teaching Assistant</h3>
+                  <span class="company">NIT Academy</span>
+                  <span class="period">2023 - Present</span>
+                </div>
               </div>
               <div class="job-description">
                 <p>
@@ -100,9 +115,14 @@ export function createExperience(): string {
             <div class="timeline-marker"></div>
             <div class="timeline-content">
               <div class="timeline-header">
-                <h3 class="job-title">Co-Founder</h3>
-                <span class="company">BikeSeeing Startup</span>
-                <span class="period">2018</span>
+                <div class="company-logo">
+                  <img src="/personal_cv/logos/bikeseeing.png" alt="BikeSeeing" class="logo">
+                </div>
+                <div class="job-info">
+                  <h3 class="job-title">Co-Founder</h3>
+                  <span class="company">BikeSeeing Startup</span>
+                  <span class="period">2018</span>
+                </div>
               </div>
               <div class="job-description">
                 <p>

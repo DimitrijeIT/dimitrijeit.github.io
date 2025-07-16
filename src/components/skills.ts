@@ -245,6 +245,71 @@ export function createSkills(): string {
               <span class="expertise-tag">Startup Experience</span>
             </div>
           </div>
+          
+          <div class="education-certifications">
+            <h3 class="section-subtitle">Education & Certifications</h3>
+            <div class="education-grid">
+              <div class="education-item">
+                <div class="education-logo">
+                  <img src="/personal_cv/logos/ftn.png" alt="University of Novi Sad" class="logo">
+                </div>
+                <div class="education-info">
+                  <h4>PhD in Computer Science</h4>
+                  <p class="institution">Faculty of Technical Sciences, University of Novi Sad</p>
+                  <p class="period">2021 - Present</p>
+                  <p class="description">Focus on AI Research, Transformer models, and Computer Vision</p>
+                </div>
+              </div>
+              
+              <div class="education-item">
+                <div class="education-logo">
+                  <img src="/personal_cv/logos/ftn.png" alt="University of Novi Sad" class="logo">
+                </div>
+                <div class="education-info">
+                  <h4>Master of Science in Electrical Engineering</h4>
+                  <p class="institution">Faculty of Technical Sciences, University of Novi Sad</p>
+                  <p class="period">2019 - 2021</p>
+                  <p class="description">Specialized in Computer Vision and Machine Learning</p>
+                </div>
+              </div>
+              
+              <div class="education-item">
+                <div class="education-logo">
+                  <img src="/personal_cv/logos/udacity.png" alt="Udacity" class="logo">
+                </div>
+                <div class="education-info">
+                  <h4>AI Programming with Python Nanodegree</h4>
+                  <p class="institution">Udacity</p>
+                  <p class="period">2020</p>
+                  <p class="description">Advanced Python programming for AI applications</p>
+                </div>
+              </div>
+              
+              <div class="education-item">
+                <div class="education-logo">
+                  <img src="/personal_cv/logos/udemy.png" alt="Udemy" class="logo">
+                </div>
+                <div class="education-info">
+                  <h4>Advanced Machine Learning Courses</h4>
+                  <p class="institution">Udemy</p>
+                  <p class="period">2019 - 2023</p>
+                  <p class="description">Continuous learning in ML, Deep Learning, and AI</p>
+                </div>
+              </div>
+              
+              <div class="education-item">
+                <div class="education-logo">
+                  <img src="/personal_cv/logos/startup_centar.png" alt="Startup Center" class="logo">
+                </div>
+                <div class="education-info">
+                  <h4>Startup Accelerator Program</h4>
+                  <p class="institution">Startup Center Novi Sad</p>
+                  <p class="period">2018</p>
+                  <p class="description">Entrepreneurship, Business Development, and Innovation</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
