@@ -231,10 +231,76 @@ export function createSkills(): string {
                   <img src="/personal_cv/logos/udemy.png" alt="Udemy" class="logo">
                 </div>
                 <div class="education-info">
-                  <h4>Advanced Machine Learning Courses</h4>
+                  <h4>LangChain- Develop AI Agents with LangChain & LangGraph</h4>
                   <p class="institution">Udemy</p>
-                  <p class="period">2019 - 2023</p>
-                  <p class="description">Continuous learning in ML, Deep Learning, and AI</p>
+                  <p class="period">September 2024</p>
+                  <p class="description">Advanced AI Agents development using LangChain and LangGraph frameworks</p>
+                  <a href="https://www.udemy.com/certificate/UC-e9a9f28e-a3c0-4b0d-b93d-d6cbf2f89589/" target="_blank" class="certificate-link">View Certificate</a>
+                </div>
+              </div>
+              
+              <div class="education-item">
+                <div class="education-logo">
+                  <img src="/personal_cv/logos/udemy.png" alt="Udemy" class="logo">
+                </div>
+                <div class="education-info">
+                  <h4>AWS Certified Machine Learning Specialty 2025 - Hands On!</h4>
+                  <p class="institution">Udemy</p>
+                  <p class="period">July 2024</p>
+                  <p class="description">Comprehensive AWS ML services training and certification preparation</p>
+                  <a href="https://www.udemy.com/certificate/UC-578bef9f-6e6d-4bd0-b8b3-f00f169eea59/" target="_blank" class="certificate-link">View Certificate</a>
+                </div>
+              </div>
+              
+              <div class="education-item">
+                <div class="education-logo">
+                  <img src="/personal_cv/logos/udemy.png" alt="Udemy" class="logo">
+                </div>
+                <div class="education-info">
+                  <h4>Machine Learning A-Z: AI, Python & R + ChatGPT Prize</h4>
+                  <p class="institution">Udemy</p>
+                  <p class="period">2024</p>
+                  <p class="description">Comprehensive Machine Learning course covering Python, R, and AI technologies</p>
+                  <a href="https://www.udemy.com/certificate/UC-b6648857-7af2-43d2-b4a9-a285b402fc5d/" target="_blank" class="certificate-link">View Certificate</a>
+                </div>
+              </div>
+              
+              <div class="education-item">
+                <div class="education-logo">
+                  <img src="/personal_cv/logos/udemy.png" alt="Udemy" class="logo">
+                </div>
+                <div class="education-info">
+                  <h4>Become a Product Manager | Learn the Skills & Get the Job</h4>
+                  <p class="institution">Udemy</p>
+                  <p class="period">2024</p>
+                  <p class="description">Product management fundamentals, strategy, and career development</p>
+                  <a href="https://www.udemy.com/certificate/UC-fcad8f44-e30b-45c9-a7e6-8faf951c2296/" target="_blank" class="certificate-link">View Certificate</a>
+                </div>
+              </div>
+              
+              <div class="education-item">
+                <div class="education-logo">
+                  <img src="/personal_cv/logos/udemy.png" alt="Udemy" class="logo">
+                </div>
+                <div class="education-info">
+                  <h4>The Complete Guide to Becoming a Software Architect</h4>
+                  <p class="institution">Udemy</p>
+                  <p class="period">2020</p>
+                  <p class="description">Software architecture principles, design patterns, and system design</p>
+                  <a href="https://www.udemy.com/certificate/UC-ff11f74b-3d00-43dc-a77c-6cad85a23d25/" target="_blank" class="certificate-link">View Certificate</a>
+                </div>
+              </div>
+              
+              <div class="education-item">
+                <div class="education-logo">
+                  <img src="/personal_cv/logos/udemy.png" alt="Udemy" class="logo">
+                </div>
+                <div class="education-info">
+                  <h4>Complete Python Bootcamp From Zero to Hero in Python</h4>
+                  <p class="institution">Udemy</p>
+                  <p class="period">2019</p>
+                  <p class="description">Comprehensive Python programming fundamentals and advanced concepts</p>
+                  <a href="http://www.udemy.com/certificate/UC-LQQX7LIE" target="_blank" class="certificate-link">View Certificate</a>
                 </div>
               </div>
               
