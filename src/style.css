@@ -853,51 +853,75 @@ section.animate-in {
   box-shadow: var(--shadow-md);
 }
 
-.category-title {
+.category-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
   margin-bottom: var(--spacing-lg);
+}
+
+.category-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.ai-icon {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.automotive-icon {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+}
+
+.engineering-icon {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+}
+
+.leadership-icon {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  color: white;
+}
+
+.category-title {
+  margin: 0;
   color: var(--color-text-primary);
-  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 .skills-grid {
   display: grid;
-  gap: var(--spacing-lg);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
 }
 
 .skill-item {
-  margin-bottom: var(--spacing-md);
+  background-color: var(--color-bg-secondary);
+  padding: var(--spacing-md);
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-border);
+  transition: all var(--transition-fast);
+  text-align: center;
 }
 
-.skill-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: var(--spacing-sm);
+.skill-item:hover {
+  background-color: var(--color-bg-tertiary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .skill-name {
   font-weight: 500;
   color: var(--color-text-primary);
-}
-
-.skill-level {
-  font-size: 0.875rem;
-  color: var(--color-text-secondary);
-  font-weight: 500;
-}
-
-.skill-bar {
-  height: 6px;
-  background-color: var(--color-bg-tertiary);
-  border-radius: 3px;
-  overflow: hidden;
-}
-
-.skill-progress {
-  height: 100%;
-  background: linear-gradient(90deg, var(--color-primary), var(--color-primary-light));
-  border-radius: 3px;
-  transition: width 1s ease-out;
+  font-size: 0.95rem;
 }
 
 .skills-summary {
@@ -1353,6 +1377,21 @@ section.animate-in {
   
   .role {
     font-size: 1.5rem;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .category-header {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--spacing-sm);
+  }
+  
+  .category-icon {
+    width: 40px;
+    height: 40px;
   }
 }
 
