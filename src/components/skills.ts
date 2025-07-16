@@ -488,11 +488,11 @@ export function createSkills(): string {
           <div class="teaching-section">
             <h3 class="section-subtitle">Teaching</h3>
             <div class="education-grid">
-              <div class="education-item">
-                <div class="education-logo">
-                  <img src="/personal_cv/logos/nit_academy.png" alt="NIT Academy" class="logo">
+              <div class="course-card">
+                <div class="course-image">
+                  <img src="/personal_cv/course-images/tdd-bdd-course.jpg" alt="Software Development with TDD and BDD">
                 </div>
-                <div class="education-info">
+                <div class="course-content">
                   <h4>Software Development with TDD and BDD</h4>
                   <p class="institution">NIT Academy</p>
                   <p class="period">Current - Advanced Level</p>
@@ -506,11 +506,11 @@ export function createSkills(): string {
                 </div>
               </div>
               
-              <div class="education-item">
-                <div class="education-logo">
-                  <img src="/personal_cv/logos/nit_academy.png" alt="NIT Academy" class="logo">
+              <div class="course-card">
+                <div class="course-image">
+                  <img src="/personal_cv/course-images/adaptive-autosar-course.jpg" alt="Automotive Software with Adaptive AUTOSAR">
                 </div>
-                <div class="education-info">
+                <div class="course-content">
                   <h4>Automotive Software with Adaptive AUTOSAR</h4>
                   <p class="institution">NIT Academy</p>
                   <p class="period">Current - Advanced Level</p>
@@ -524,11 +524,11 @@ export function createSkills(): string {
                 </div>
               </div>
               
-              <div class="education-item">
-                <div class="education-logo">
-                  <img src="/personal_cv/logos/nit_academy.png" alt="NIT Academy" class="logo">
+              <div class="course-card">
+                <div class="course-image">
+                  <img src="/personal_cv/course-images/rust-programming-course.png" alt="Programming with Rust">
                 </div>
-                <div class="education-info">
+                <div class="course-content">
                   <h4>Programming with Rust</h4>
                   <p class="institution">NIT Academy</p>
                   <p class="period">Current - Advanced Level</p>
