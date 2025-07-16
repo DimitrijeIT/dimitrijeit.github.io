@@ -87,9 +87,30 @@ Update the following files with your personal information:
 - Add your profile picture to the hero section
 - Add project screenshots to the projects section
 
-## 🌐 AWS Deployment
+## 🌐 Deployment
 
-This website is optimized for AWS deployment. Here are recommended deployment options:
+This website can be deployed on multiple platforms:
+
+### GitHub Pages (Recommended)
+
+The website is configured for automatic deployment to GitHub Pages:
+
+1. **Enable GitHub Pages** in your repository settings
+2. **Set source** to "GitHub Actions"
+3. **Push to main branch** - the workflow will automatically build and deploy
+
+The site will be available at: `https://yourusername.github.io/personal_cv/`
+
+### Manual GitHub Pages Deployment
+
+If you prefer manual deployment:
+
+```bash
+npm run build
+npm run deploy
+```
+
+### AWS Deployment
 
 ### Option 1: AWS S3 + CloudFront
 

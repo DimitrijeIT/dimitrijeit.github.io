@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: '/cv/', // Set to your repo name
+  base: '/personal_cv/', // Set to your repo name
 });

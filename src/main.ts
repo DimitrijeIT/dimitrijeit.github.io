@@ -1,12 +1,12 @@
 import './style.css'
-import { createHeader } from './components/header.js'
-import { createHero } from './components/hero.js'
-import { createAbout } from './components/about.js'
-import { createExperience } from './components/experience.js'
-import { createSkills } from './components/skills.js'
-import { createProjects } from './components/projects.js'
-import { createContact } from './components/contact.js'
-import { initializeAnimations } from './animations.js'
+import { createHeader } from './components/header'
+import { createHero } from './components/hero'
+import { createAbout } from './components/about'
+import { createExperience } from './components/experience'
+import { createSkills } from './components/skills'
+import { createProjects } from './components/projects'
+import { createContact } from './components/contact'
+import { initializeAnimations } from './animations'
 
 // Initialize the application
 function initApp() {
