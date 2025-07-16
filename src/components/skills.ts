@@ -246,8 +246,8 @@ export function createSkills(): string {
             </div>
           </div>
           
-          <div class="education-certifications">
-            <h3 class="section-subtitle">Education & Certifications</h3>
+          <div class="education-section">
+            <h3 class="section-subtitle">Education</h3>
             <div class="education-grid">
               <div class="education-item">
                 <div class="education-logo">
@@ -284,7 +284,12 @@ export function createSkills(): string {
                   <p class="description">Foundation in Computer Engineering and Informatics</p>
                 </div>
               </div>
-              
+            </div>
+          </div>
+          
+          <div class="certifications-section">
+            <h3 class="section-subtitle">Certifications & Professional Development</h3>
+            <div class="education-grid">
               <div class="education-item">
                 <div class="education-logo">
                   <img src="/personal_cv/logos/udacity.png" alt="Udacity" class="logo">

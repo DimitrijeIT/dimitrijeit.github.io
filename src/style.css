@@ -942,8 +942,15 @@ section.animate-in {
   border-color: var(--color-primary);
 }
 
-/* Education & Certifications */
-.education-certifications {
+/* Education Section */
+.education-section {
+  margin-top: var(--spacing-3xl);
+  padding-top: var(--spacing-3xl);
+  border-top: 1px solid var(--color-border);
+}
+
+/* Certifications Section */
+.certifications-section {
   margin-top: var(--spacing-3xl);
   padding-top: var(--spacing-3xl);
   border-top: 1px solid var(--color-border);
