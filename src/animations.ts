@@ -31,9 +31,6 @@ export function initializeAnimations(): void {
   // Add scroll-based header styling
   window.addEventListener('scroll', handleScroll)
   
-  // Initialize form handling
-  initializeFormHandling()
-  
   // Initialize typing animation
   initializeTypingAnimation()
 }
@@ -124,72 +121,4 @@ function initializeTypingAnimation(): void {
   setTimeout(typeRole, 1000)
 }
 
-function initializeFormHandling(): void {
-  const form = document.getElementById('contactForm') as HTMLFormElement
-  if (!form) return
 
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault()
-    
-    const submitBtn = form.querySelector('.btn-submit') as HTMLButtonElement
-    const btnText = submitBtn.querySelector('.btn-text') as HTMLElement
-    const originalText = btnText.textContent
-    
-    // Show loading state
-    submitBtn.disabled = true
-    btnText.textContent = 'Sending...'
-    submitBtn.classList.add('loading')
-    
-    // Simulate form submission (replace with actual API call)
-    try {
-      await new Promise(resolve => setTimeout(resolve, 2000))
-      
-      // Show success state
-      btnText.textContent = 'Message Sent!'
-      submitBtn.classList.remove('loading')
-      submitBtn.classList.add('success')
-      
-      // Reset form
-      form.reset()
-      
-      // Reset button after delay
-      setTimeout(() => {
-        submitBtn.disabled = false
-        btnText.textContent = originalText
-        submitBtn.classList.remove('success')
-      }, 3000)
-      
-    } catch (error) {
-      // Show error state
-      btnText.textContent = 'Failed to send'
-      submitBtn.classList.remove('loading')
-      submitBtn.classList.add('error')
-      
-      // Reset button after delay
-      setTimeout(() => {
-        submitBtn.disabled = false
-        btnText.textContent = originalText
-        submitBtn.classList.remove('error')
-      }, 3000)
-    }
-  })
-
-  // Add input focus animations
-  const inputs = form.querySelectorAll('input, textarea')
-  inputs.forEach(input => {
-    input.addEventListener('focus', () => {
-      input.parentElement?.classList.add('focused')
-    })
-    
-    input.addEventListener('blur', () => {
-      if (!(input as HTMLInputElement).value) {
-        input.parentElement?.classList.remove('focused')
-      }
-    })
-    
-    // Check if input has value on load
-    if ((input as HTMLInputElement).value) {
-      input.parentElement?.classList.add('focused')
-    }
-  })
-}
