@@ -1065,6 +1065,81 @@ section.animate-in {
   margin: 0;
 }
 
+.certificate-link {
+  display: inline-block;
+  margin-top: var(--spacing-sm);
+  color: var(--color-primary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.certificate-link:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+.certificate-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-top: var(--spacing-sm);
+}
+
+.cert-tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 0.375rem;
+  transition: all var(--transition-fast);
+}
+
+.cert-tag.ai-ml {
+  background-color: rgba(37, 99, 235, 0.1);
+  color: var(--color-primary);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+}
+
+.cert-tag.ai-ml:hover {
+  background-color: rgba(37, 99, 235, 0.15);
+  transform: translateY(-1px);
+}
+
+.cert-tag.automotive {
+  background-color: rgba(245, 158, 11, 0.1);
+  color: var(--color-accent);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+.cert-tag.automotive:hover {
+  background-color: rgba(245, 158, 11, 0.15);
+  transform: translateY(-1px);
+}
+
+.cert-tag.engineering {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #059669;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.cert-tag.engineering:hover {
+  background-color: rgba(16, 185, 129, 0.15);
+  transform: translateY(-1px);
+}
+
+.cert-tag.leadership {
+  background-color: rgba(139, 92, 246, 0.1);
+  color: #7c3aed;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.cert-tag.leadership:hover {
+  background-color: rgba(139, 92, 246, 0.15);
+  transform: translateY(-1px);
+}
+
 /* Projects Section */
 .projects-grid {
   display: grid;
