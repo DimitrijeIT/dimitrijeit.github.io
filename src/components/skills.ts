@@ -275,6 +275,18 @@ export function createSkills(): string {
               
               <div class="education-item">
                 <div class="education-logo">
+                  <img src="/personal_cv/logos/etf.png" alt="University of Belgrade" class="logo">
+                </div>
+                <div class="education-info">
+                  <h4>Bachelor's degree, Computer Engineering and Informatics</h4>
+                  <p class="institution">University of Belgrade, School of Electrical Engineering</p>
+                  <p class="period">2014 - 2018</p>
+                  <p class="description">Foundation in Computer Engineering and Informatics</p>
+                </div>
+              </div>
+              
+              <div class="education-item">
+                <div class="education-logo">
                   <img src="/personal_cv/logos/udacity.png" alt="Udacity" class="logo">
                 </div>
                 <div class="education-info">
